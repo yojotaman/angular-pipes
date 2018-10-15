@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   // title = 'angular-pipes';
   nombre = 'Jonathan';
+  nombre2 = 'jonAThan salaZAR galeaNo';
   arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   PI = Math.PI;
   a = 0.234;
@@ -28,5 +29,9 @@ export class AppComponent {
   });
 
   fecha = new Date();
+
+  video = 'r9E4rosb3Ng';
+
+  activar = true;
 
 }
